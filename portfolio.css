@@ -5,13 +5,23 @@ hr {
 }
 
 .fab {
-    background: #205D7A;
+  background: #205D7A;
 	color: #fff;
-	width: 40px;
-	height: 40px;
+	width: 80px;
+	height: 60px;
 	border-radius: 20px;
-	font-size: 25px;
+	font-size: 35px;
 	text-align: center;
 	margin-right: 10px;
 	padding-top: 15%;
+}
+
+#welcome-section {
+  height: 100vh;
+} 
+
+@media (max-width: 300px) {
+  #social-media {
+    display: flex;
+  }
 }
